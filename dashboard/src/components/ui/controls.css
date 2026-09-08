@@ -63,7 +63,7 @@
 
   .btn-primary,
   .btn-refresh-inline {
-    @apply h-8 gap-1.5 px-3;
+    @apply h-7 gap-1 px-2.5 text-xs;
   }
 
   .ui-button-size-xs {
@@ -95,7 +95,7 @@
 
   .btn-theme-toggle,
   .btn-logout {
-    @apply h-7 w-7;
+    @apply h-6 w-6;
   }
 
   .ui-button-size-icon-lg {
