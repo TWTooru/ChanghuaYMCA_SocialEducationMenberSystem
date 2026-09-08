@@ -54,13 +54,16 @@
   }
 
   .ui-button-size-default,
-  .btn-primary,
   .btn-secondary,
   .btn-edit,
   .btn-delete,
-  .btn-danger,
-  .btn-refresh-inline {
+  .btn-danger {
     @apply h-10 gap-2 px-4;
+  }
+
+  .btn-primary,
+  .btn-refresh-inline {
+    @apply h-8 gap-1.5 px-3;
   }
 
   .ui-button-size-xs {
@@ -86,10 +89,13 @@
   .ui-button-size-icon-sm,
   .btn-close,
   .close-btn,
-  .btn-theme-toggle,
-  .btn-logout,
   .timeline-action-btn {
     @apply h-8 w-8;
+  }
+
+  .btn-theme-toggle,
+  .btn-logout {
+    @apply h-7 w-7;
   }
 
   .ui-button-size-icon-lg {

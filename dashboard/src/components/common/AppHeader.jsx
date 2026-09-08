@@ -56,14 +56,14 @@ export default function AppHeader({
             aria-label={theme === 'dark' ? '切換至明亮模式' : '切換至黑暗模式'}
             id="btn-theme-toggle"
           >
-            {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+            {theme === 'dark' ? <Sun size={15} /> : <Moon size={15} />}
           </button>
           <button 
             className="btn-primary" 
             id="btn-download-excel"
             onClick={onShowExportModal}
           >
-            <Download size={18} />
+            <Download size={15} />
             <span>下載整理版 Excel</span>
           </button>
           <div className="header-user-info">
@@ -72,7 +72,7 @@ export default function AppHeader({
               {ROLE_LABELS[role] || '檢視者'}
             </span>
             <button type="button" className="btn-logout" onClick={onSignOut} title="登出">
-              <LogOut size={16} />
+              <LogOut size={14} />
             </button>
           </div>
         </div>
