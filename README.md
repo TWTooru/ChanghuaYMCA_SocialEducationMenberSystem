@@ -33,42 +33,7 @@
 └── docs/               # 部署與管理文件
 ```
 
-## 快速開始
 
-### 前置條件
-
-- Node.js 18+
-- Supabase CLI（用於本機開發 / 資料庫推送）
-
-### 安裝與啟動
-
-```bash
-# 安裝前端依賴
-cd dashboard
-npm install
-
-# 設定環境變數
-cp .env.example .env.local
-# 編輯 .env.local 填入 Supabase URL 與 Anon Key
-
-# 啟動開發伺服器
-npm run dev
-```
-
-或使用 Windows 啟動腳本：
-
-```bash
-啟動系統.bat
-```
-
-### 常用指令
-
-```bash
-npm run dev      # 啟動開發伺服器
-npm run build    # 建置生產版本
-npm run test     # 執行測試（240 個）
-npm run lint     # 執行程式碼檢查
-```
 
 ## 功能模組
 
@@ -86,13 +51,5 @@ npm run lint     # 執行程式碼檢查
 | `admin` | 完整存取（含帳號管理、Excel 同步、匯出） |
 | `editor` | 編輯學員資料、新增選課紀錄 |
 | `viewer` | 唯讀瀏覽 |
-
-## 部署
-
-詳見 [docs/admin-account-management-setup.md](docs/admin-account-management-setup.md)。
-
-前端建置後部署至 IIS，已含 `web.config` SPA 路由設定。
-
-## 授權
 
 本系統為 YMCA社教學員資料庫內部行政使用。
